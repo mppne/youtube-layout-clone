@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.cabecalho__titulo {
+    font-size: 35px;
+}
+
+.cabecalho__busca {
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.cabecalho__login {
+    text-decoration: none;
+    color: rgb(63, 139, 238);
+    font-size: 18px;
+    padding: 13px;
+    border-radius: 30px;
+    border: solid 1px black;
+}
+
+.cabecalho__login:hover {
+    background-color: aliceblue;
+}
+
+main {
+    display: flex;
+}
+
+.navegacao {
+    width: 250px;
+    height: 100vh;
+}
+
+.navegacao__primeira__secao__buscar {
+    font-size: 18px;
+    margin: 15px 0px;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+
+}
+
+.navegacao__primeira__secao__buscar:hover {
+    color: rgb(90, 86, 86);
+    background-color: rgb(242, 242, 242);
+}
+
+.navegacao__terceira__secao__comentario {
+    text-align: center;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.navegacao__terceira__secao__login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: rgb(63, 139, 238);
+    font-size: 18px;
+    padding: 13px;
+    border-radius: 30px;
+    border: solid 1px black;
+    width: 100px;
+}
+
+.navegacao__quarta__secao__subtitulo {
+    margin: 10px 0px 0px 40px;
+}
+
+.recomendacao {
+    display: flex;
+    gap: 30px;
+    font-size: 22px;
+}
+
+.recomendacao__topicos {
+    text-decoration: none;
+    background-color: rgb(218, 213, 213);
+    color: black;
+    height: 20px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.recomendacao__topicos:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.recomendacao__topicos__inicial {
+    padding: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+
+.recomendacao__topicos__inicial:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
