@@ -1,0 +1,18 @@
+⚠️ Melhorias desejadas / pontos de atenção:
+Organização do CSS
+
+Não utilizei variáveis CSS para armazenar propriedades reutilizáveis.
+
+Acabei repetindo as mesmas propriedades em várias classes diferentes, o que dificultaria a manutenção do código no futuro.
+
+Ícones pendentes
+
+Ainda não adicionei os ícones de navegação e interações.
+
+Pretendo incluir ícones (como botão de like, avatar, etc.) futuramente usando alguma biblioteca (ex: Font Awesome, Material Icons).
+
+Repetição desnecessária de HTML
+
+Repeti a <section> de vídeos várias vezes manualmente.
+
+O ideal seria ter implementado uma lógica para quebrar a linha automaticamente a cada 4 cards, evitando repetição de código.
