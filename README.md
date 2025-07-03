@@ -8,7 +8,7 @@ Este é um projeto que replica o layout da página inicial do YouTube usando ape
 - CSS3
 - Flexbox
 
-## 📸 Imagem do Projeto
+## 📸 Prévia
 
-Projeto ainda em andamento, até então sem imagem.
+![img](https://github.com/user-attachments/assets/327b1524-3100-41ad-b48f-dc7c7545a3ae)
 
